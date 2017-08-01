@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Odgadnij liczbę</string>
+    <string name="new_game">Nowa Gra</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="take_the_guess">Spróbuj</string>
+    <string name="times_guessed">Ilość prób</string>
+    <string name="best_score">Najlepszy wynik</string>
+    <string name="my_number_is_less_tan_yours">Podana liczba jest za duża</string>
+    <string name="my_number_is_bigger_than_yours">Podana liczba jest za mała</string>
+    <string name="congeats_you_gussed_my_number">Gratulacje zgadłeś wylosowaną liczbę</string>
+    <string name="enter_the_number">Wpisz liczbę!</string>
+
+</resources>

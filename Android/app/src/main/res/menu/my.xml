@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_leaderboards"
+        android:icon="@drawable/games_leaderboards_white"
+        android:showAsAction="ifRoom"
+        compat:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_achievements"
+        android:icon="@drawable/games_achievements_white"
+        android:showAsAction="ifRoom"
+        compat:showAsAction="ifRoom"
+        />
+</menu>

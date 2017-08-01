@@ -1,0 +1,13 @@
+<resources>
+    <color name="custom_theme_color">#66af1f</color>
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- Main theme colors -->
+        <!--   your app's branding color (for the app bar) -->
+        <item name="android:colorPrimary">@color/custom_theme_color</item>
+        <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
+        <item name="android:colorPrimaryDark">@color/custom_theme_color</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/custom_theme_color</item>
+    </style>
+</resources>

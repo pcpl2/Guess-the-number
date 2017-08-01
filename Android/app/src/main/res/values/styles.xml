@@ -1,0 +1,29 @@
+<resources>
+
+    <color name="custom_theme_color">#66af1f</color>
+
+    <!-- Base application theme. -->
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+        <item name="android:buttonStyle">@style/MyButton</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="MyButton">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">30px</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GTM_Ligth" parent="Theme.AppCompat.Light.NoActionBar" />
+</resources>
